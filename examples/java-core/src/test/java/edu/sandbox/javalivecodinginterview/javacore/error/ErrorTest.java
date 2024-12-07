@@ -14,7 +14,7 @@ class ErrorTest {
     void shouldReturnErrorWithHighestPriorityFromServer() {
         // given
         List<String> errorsFromServer = Arrays.asList(
-                "E-7834", "E-7264", "S-3364"
+                "E_7834", "E_7264", "S_3364"
         );
 
         // when
